@@ -28,5 +28,4 @@
     "noUncheckedSideEffectImports": true
   },
   "include": ["src"],
-  "files": ["src/global.d.ts"]
 }
