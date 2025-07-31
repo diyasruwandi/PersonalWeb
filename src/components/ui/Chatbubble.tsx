@@ -11,8 +11,8 @@ export default function ChatBubble() {
           {/* Avatar */}
           <div className="w-10 h-10 rounded-full overflow-hidden">
             <img
-              alt="Obi-Wan"
-              src="/src/images/g.png"
+              alt="HR Google"
+              src="images/g.png"
             />
           </div>
           {/* Message Content */}
@@ -48,7 +48,7 @@ export default function ChatBubble() {
           <div className="w-10 h-10 rounded-full overflow-hidden">
             <img
               alt="Diyas"
-              src="/src/images/dyss.jpg"
+              src="images/dyss.jpg"
             />
           </div>
         </div>
