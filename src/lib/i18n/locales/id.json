@@ -1,0 +1,42 @@
+{
+  "about": {
+    "line1": "Saya kuliah di Politeknik Harapan Bersama.",
+    "line2": "Jurusan yang saya pilih adalah Teknik Informatika karena",
+    "line3": "saya memiliki minat khusus dalam pengembangan aplikasi.",
+    "line4": "Fokus saya adalah membangun aplikasi yang efisien dan mudah digunakan. Saya terus belajar berbagai",
+    "line5": "bahasa pemrograman dan alat terbaru."
+  },
+
+  "projects": {
+    "title1": "Pilihan",
+    "title2": "Proyek",
+    "description": "Berikut beberapa proyek terbaru saya. Setiap proyek dirancang dengan cermat dengan memperhatikan detail, performa, dan pengalaman pengguna."
+  },
+
+  "home": {
+    "greeting": "Hai, saya Diyas.",
+    "subtitle": "Saya membangun website keren seperti ini.",
+    "contact": "Hubungi saya",
+    "about": {
+      "main": "Saya senang membangun hal-hal keren.",
+      "desc": "Saya membangun terutama dengan React, Tailwind CSS, dan Framer Motion. Saya sangat menyukai stack ini sampai saya membuat situs web tentangnya. Untuk mengenal saya lebih jauh, silakan kunjungi Instagram dan LinkedIn saya."
+    },
+    "location": "Itu benar"
+  },
+
+  "statistic": {
+    "totalLikes": "Total Suka",
+    "pageViews": "Tampilan Halaman",
+    "moreThanLastMonth": "21% lebih banyak dari bulan lalu",
+    "alreadyLiked": "Kamu sudah menyukai ini."
+  },
+
+  "chat": {
+    "messageFromGoogle": "Kamu bisa mulai kerja besok.",
+    "delivered": "Terkirim",
+    "alright": "Baik, Pak.",
+    "thankYou": "Terima kasih banyak 😍",
+    "seenAt": "Dilihat pukul 12.46"
+  }
+}
+

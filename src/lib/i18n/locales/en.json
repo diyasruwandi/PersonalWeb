@@ -1,0 +1,41 @@
+{
+  "about": {
+    "line1": "I study at the Polytechnic of Harapan Bersama.",
+    "line2": "The major I chose is informatics engineering because",
+    "line3": "I have a special interest in application development.",
+    "line4": "My focus is on building efficient and easy-to-use applications. I continue to learn various programming",
+    "line5": "languages and the latest tools."
+  },
+
+  "projects": {
+    "title1": "Featured",
+    "title2": "Projects",
+    "description": "Here are some of my recent projects. Each project was carefully crafted with attention to detail, performance, and user experience."
+  },
+
+   "home": {
+    "greeting": "Hi, I'm Diyas.",
+    "subtitle": "I build cool websites like this one.",
+    "contact": "Contact me",
+    "about": {
+      "main": "My passion is building cool stuff.",
+      "desc": "I build primarily with React, Tailwind CSS, and Framer Motion. I love this stack so much that I even built a website about it. To get to know me better, please visit my Instagram and LinkedIn."
+    },
+    "location": "That’s right"
+  },
+
+    "statistic": {
+    "totalLikes": "Total Likes",
+    "pageViews": "Page Views",
+    "moreThanLastMonth": "21% more than last month",
+    "alreadyLiked": "You've already liked this."
+  },
+
+    "chat": {
+    "messageFromGoogle": "You can start working tomorrow.",
+    "delivered": "Delivered",
+    "alright": "Alright, sir.",
+    "thankYou": "Thank you very much 😍",
+    "seenAt": "Seen at 12:46"
+  }
+}
