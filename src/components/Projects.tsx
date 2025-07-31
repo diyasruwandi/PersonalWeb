@@ -31,7 +31,7 @@ export default function Projects() {
     >
       <div className="container mx-auto max-w-5xl">
         <h2 className=" text-white text-3xl  font-bold mb-4 text-center">
-          {t("projects.title1")}<span className="text-pink-300">{t("projects.title2")}</span>
+          {t("projects.title1")}<span className="text-pink-300"> {t("projects.title2")}</span>
         </h2>
 
         <p className="text-white text-center mb-12 max-w-2xl mx-auto">
