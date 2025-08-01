@@ -121,7 +121,7 @@ export const Feedback = () => {
               variants={container}
               initial="hidden"
               animate="show"
-              className="flex h-full w-full flex-col items-center justify-start gap-2 pt-9 text-sm font-normal">
+              className="flex h-full w-full flex-col items-center justify-start gap-2 pt-9 text-white text-sm font-normal">
               <motion.div
                 variants={item}
                 className="flex h-8 min-h-8 w-8 min-w-8 items-center justify-center rounded-full bg-blue-500 dark:bg-sky-500">
