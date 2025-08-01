@@ -94,7 +94,7 @@ export const Feedback = () => {
               <textarea
                 ref={textRef}
                 placeholder="Your app is awesoooome"
-                className="min-h-32 w-full resize-none rounded-md border bg-transparent p-2 text-sm placeholder-neutral-400 focus:border-neutral-400 focus:outline-0 dark:border-neutral-800 focus:dark:border-white"
+                className="min-h-32 w-full text-white resize-none rounded-md border bg-transparent p-2 text-sm placeholder-neutral-400 focus:border-neutral-400 focus:outline-0 dark:border-neutral-800 focus:dark:border-white"
               />
               <div className="flex h-fit w-full justify-end">
                 <button
