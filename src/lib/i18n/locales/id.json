@@ -41,6 +41,20 @@
 
   "text": {
     "velocity": "Menuju Masa Depan"
+  },
+
+  "feedback": {
+    "question": "Suka website ku?",
+    "loading": "Memuat",
+    "receive": "Masukanmu telah diterima!",
+    "submit": "Kirim",
+    "thank": "Terima kasih atas bantuannya."
+  },
+
+  "subscriptioncard": {
+    "label": "PERINGATAN!",
+    "desc": "Jangan salahkan aku kalau setelah lihat-lihat sini kamu jadi pengen ngoding juga.",
+    "btn1": "AKU UDAH TAU",
+    "btn2": "OKE"
   }
 }
-

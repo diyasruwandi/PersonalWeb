@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function SubscriptionCard() {
+  const { t } = useTranslation();
   const [hoverBanner, setHoverBanner] = useState(false);
 
   return (
@@ -17,11 +19,13 @@ export default function SubscriptionCard() {
             hoverBanner ? "opacity-0 -translate-y-full" : "opacity-100"
           }`}
         >
-          WARNING !
+          {t("subscriptioncard.label")}
         </span>
         <span
           className={`absolute w-full left-[13%] top-1/2 transform -translate-y-1/2 transition-all duration-500 ${
-            hoverBanner ? "opacity-100 -translate-y-[40%]" : "opacity-0 translate-y-[60%]"
+            hoverBanner
+              ? "opacity-100 -translate-y-[40%]"
+              : "opacity-0 translate-y-[60%]"
           }`}
         >
           JOIN US
@@ -35,7 +39,7 @@ export default function SubscriptionCard() {
 
       {/* Subtitle */}
       <p className="text-base text-gray-700 leading-relaxed mb-5 pb-2">
-        Don’t blame me if you suddenly feel like coding after browsing around here.
+        {t("subscriptioncard.desc")}
       </p>
 
       {/* Form */}
@@ -44,13 +48,13 @@ export default function SubscriptionCard() {
           type="submit"
           className="p-3 border-4 border-black text-lg font-bold transition-all duration-300 focus:outline-none focus:scale-105 hover:bg-black hover:text-white hover:-translate-y-1 shadow-[0_5px_0_black] active:translate-y-0 active:shadow-none active:animate-shake"
         >
-            I KNEW THAT
-            </button>
+          {t("subscriptioncard.btn1")}
+        </button>
         <button
           type="submit"
           className="border-4 border-black bg-black text-white py-3 text-lg font-bold uppercase cursor-pointer transition-all duration-300 hover:bg-white hover:text-black hover:-translate-y-1 hover:shadow-[0_5px_0_black] active:translate-y-0 active:shadow-none active:animate-shake"
         >
-          OKAY
+          {t("subscriptioncard.btn2")}
         </button>
       </form>
     </div>

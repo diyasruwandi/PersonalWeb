@@ -40,5 +40,20 @@
   },
   "text": {
     "velocity": "Into The Future"
+  },
+
+  "feedback": {
+    "question": "Like my website ?",
+    "loading": "Loading",
+    "receive": "Your feedback has been received!",
+    "submit": "Submit",
+    "thank": "Thank you for your help."
+  },
+
+  "subscriptioncard": {
+    "label": "WARNING !",
+    "desc": "Don’t blame me if you suddenly feel like coding after browsing around here.",
+    "btn1": "I KNEW THAT",
+    "btn2": "OKAY"
   }
 }
