@@ -9,22 +9,22 @@ import Projects from "../components/Projects";
 import { RevealBento } from "../components/RevealBento";
 import ChatBubble from "../components/ui/Chatbubble";
 import Statistic from "../components/ui/Statistic";
-// import SwapTheme from "../components/ui/SwapTheme";
-// import type { MessageData } from "../data/types";
+import { TextScroll } from "@/components/ui/text-scroll";
+import { useTranslation } from "react-i18next";
+// import ButtonSketch from "@/components/ui/ButtonSketch";
+import SubscriptionCard from "@/components/SubscriptionCard";
+import { Feedback } from "@/components/Feedback";
+// import GumroadButton from "@/components/ui/GumroadButton";
+// import FancyButton from "@/components/ui/ButtonSketch";
 // import { TypographyBlockquote } from "../components/TypographyBlockquote";
 
 export default function Home() {
-  // const [entries, setEntries] = useState<MessageData[]>([]);
-
-  // const handleNewEntry = (entry: MessageData) => {
-  //   setEntries((prev) => [...prev, entry]);
-  // };
+  const { t } = useTranslation();
 
   return (
     <>
       <section id="home">
         {/* <Intro /> */}
-        {/* <SwapTheme /> */}
         <LanguageSwitcher />
         <RevealBento />
         <About />
@@ -32,28 +32,33 @@ export default function Home() {
 
       <section id="projects">
         <Projects />
+        <TextScroll
+          text={t("text.velocity")}
+          default_velocity={5}
+          className="text-4xl font-bold uppercase text-white "
+        />
         {/* <TypographyBlockquote /> */}
       </section>
 
-      <section>
+      <section className="mt-8">
         <ChatBubble />
+        
       </section>
 
       <section className="mt-9">
+        {/* <ButtonSketch /> */}
+        {/* <GumroadButton /> */}
         <Statistic />
       </section>
 
-      {/* <section id="form">
-        <InputForm onSubmit={handleNewEntry} />
-      </section> */}
-      {/* 
-      <section id="cards">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {entries.map((e, idx) => (
-            <CardItem key={idx} data={e} />
-          ))}
-        </div>
-      </section> */}
+      <section className="flex items-center justify-center mt-8">
+        <Feedback />
+      </section>
+
+      <section className="min-h-[500px] flex items-center justify-center ">
+        <SubscriptionCard />
+      </section>
+
     </>
   );
 }
