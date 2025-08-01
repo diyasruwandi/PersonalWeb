@@ -67,11 +67,11 @@ export const Feedback = () => {
         happiness ? { borderRadius: "0.5rem" } : { borderRadius: "2rem" }
       }
       className={twMerge(
-        "w-fit overflow-hidden border py-2 shadow-sm dark:border-neutral-800 dark:bg-neutral-950"
+        "w-fit overflow-hidden border py-2 text-white shadow-sm dark:border-neutral-800 dark:bg-neutral-950"
       )}
     >
       <span className="flex items-center justify-center gap-3 pl-4 pr-2">
-        <div className="text-sm text-black dark:text-neutral-400">
+        <div className="text-sm text-black dark:text-white">
           {t("feedback.question")}
         </div>
         <div className="flex items-center text-neutral-400">
